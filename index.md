@@ -1,14 +1,14 @@
-## arschedev Website
-Obviously a list of my projects  
-See [repositories](https://github.com/arschedev?tab=repositories)
+## &nbsp;arschedev Website
+&nbsp;Obviously a list of my projects  
+&nbsp;See [repositories](https://github.com/arschedev?tab=repositories)
 
 ---
 
-# Software
+# &nbsp;Software
 - ## Something
   Description
 
-# Other
+# &nbsp;Other
 - ## AddGoogleTranslate
   Google Translate add-on for Mozilla Firefox  
   > [Source](https://github.com/arschedev/AddGoogleTranslate), [Releases](https://github.com/arschedev/AddGoogleTranslate/releases)
@@ -22,5 +22,5 @@ See [repositories](https://github.com/arschedev?tab=repositories)
 
 ---
 
-# About
-🇺🇦
+# &nbsp;About
+&nbsp;🇺🇦
