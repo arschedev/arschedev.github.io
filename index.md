@@ -1,4 +1,4 @@
-<link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
+<link rel="shortcut icon" type="image/png" href="/favicon.png">
 <link rel="stylesheet" href="styles.css">
 
 ## &nbsp;arschedev Website
