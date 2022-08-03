@@ -1,0 +1,19 @@
+/* background */
+body {
+    background: #262626;
+}
+
+section {
+    background-color: #323232;
+    border: 0;
+    box-shadow: initial;
+}
+
+/* text */
+h1,
+h2,
+p,
+.tag-h1 > a,
+.tag-h2 > a {
+    color: #DCDCDC !important;
+}
