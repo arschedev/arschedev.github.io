@@ -1,20 +1,20 @@
-<link rel="shortcut icon" type="image/png" href="https://avatars.githubusercontent.com/u/98528463?v=4">
+<link rel="shortcut icon" type="image/png" href="https://avatars.githubusercontent.com/u/98528463">
 <link rel="stylesheet" href="styles.css">
 
-## &nbsp;> arschedev Website
-&nbsp;&nbsp;Obviously a list of my projects  
-&nbsp;&nbsp;See [repositories](https://github.com/arschedev?tab=repositories)
+## &nbsp;>> arschedev Website
+&nbsp;&nbsp; Obviously a list of my projects  
+&nbsp;&nbsp; See [repositories](https://github.com/arschedev?tab=repositories)
 
 ---
 
-# &nbsp;Software
+# &nbsp;> Software
 - ## Soon
   Description
 
-# &nbsp;Other
-- ## AddGoogleTranslate
-  Google Translate add-on for Mozilla Firefox  
-  > [Source](https://github.com/arschedev/AddGoogleTranslate), [Releases](https://github.com/arschedev/AddGoogleTranslate/releases)
+# &nbsp;> Other
+- ## GoogleTranslateAnywhere
+  Google Translate add-on for Mozilla Firefox
+  > [Source](https://github.com/arschedev/GoogleTranslateAnywhere), [Releases](https://github.com/arschedev/GoogleTranslateAnywhere/releases)
 - ## BetterDiscord:
   Themes & Plugins for BetterDiscord  
   [Repository](https://github.com/arschedev/BetterDiscord)
@@ -25,5 +25,5 @@
 
 ---
 
-# &nbsp;About
-&nbsp;&nbsp;🇺🇦
+# &nbsp;> About
+&nbsp;&nbsp; 🇺🇦
