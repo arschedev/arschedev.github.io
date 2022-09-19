@@ -1,6 +1,7 @@
 <link rel="shortcut icon" type="image/png" href="https://avatars.githubusercontent.com/u/98528463">
 <link rel="stylesheet" href="styles.css">
 
+
 ## &nbsp;>> arschedev Website
 &nbsp;&nbsp; Obviously a list of my projects  
 &nbsp;&nbsp; See [repositories](https://github.com/arschedev?tab=repositories)
@@ -11,7 +12,7 @@
 - ## Soon
   Description
 
-# &nbsp;> Other
+# &nbsp;> Misc
 - ## GoogleTranslateAnywhere
   Google Translate add-on for Mozilla Firefox
   > [Source](https://github.com/arschedev/GoogleTranslateAnywhere), [Releases](https://github.com/arschedev/GoogleTranslateAnywhere/releases)
@@ -21,7 +22,7 @@
     - ## Monokai Pro Ristretto
       > [Source](https://github.com/arschedev/BetterDiscord/tree/main/Themes/MonokaiProRistretto), [README](https://github.com/arschedev/BetterDiscord/blob/main/Themes/MonokaiProRistretto/README.md)
 
-      ![PREVIEW](https://raw.githubusercontent.com/arschedev/BetterDiscord/main/Themes/MonokaiProRistretto/preview.png)
+      ![Monokai Pro Ristretto](https://raw.githubusercontent.com/arschedev/BetterDiscord/main/Themes/MonokaiProRistretto/preview.png)
 
 ---
 
