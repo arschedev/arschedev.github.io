@@ -16,6 +16,7 @@
 - ## GoogleTranslateAnywhere
   文 Google Translate add-on for Mozilla Firefox
   > [Source](https://github.com/arschedev/GoogleTranslateAnywhere), [Releases](https://github.com/arschedev/GoogleTranslateAnywhere/releases)  
+
   <img alt="GoogleTranslateAnywhere" src="https://raw.githubusercontent.com/arschedev/GoogleTranslateAnywhere/main/icons/extension.png" width="380">
 - ## BetterDiscord:
   Themes & Plugins for BetterDiscord  
