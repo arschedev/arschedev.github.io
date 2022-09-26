@@ -15,7 +15,7 @@
 # &nbsp;– Misc
 - ## GoogleTranslateAnywhere
   文 Google Translate add-on for Mozilla Firefox
-  > [Source](https://github.com/arschedev/GoogleTranslateAnywhere), [Releases](https://github.com/arschedev/GoogleTranslateAnywhere/releases)  
+  > [Source](https://github.com/arschedev/GoogleTranslateAnywhere), [Releases](https://github.com/arschedev/GoogleTranslateAnywhere/releases)
 
   <img alt="GoogleTranslateAnywhere" src="https://raw.githubusercontent.com/arschedev/GoogleTranslateAnywhere/main/icons/extension.png" width="380">
 - ## BetterDiscord:
@@ -24,7 +24,7 @@
     - ## Monokai Pro Ristretto
       > [Source](https://github.com/arschedev/BetterDiscord/tree/main/Themes/MonokaiProRistretto), [README.md](https://github.com/arschedev/BetterDiscord/blob/main/Themes/MonokaiProRistretto/README.md)
 
-      <img alt="Monokai Pro Ristretto" src="https://raw.githubusercontent.com/arschedev/BetterDiscord/main/Themes/MonokaiProRistretto/preview.png" width="640">
+      ![Monokai Pro Ristretto](https://raw.githubusercontent.com/arschedev/BetterDiscord/main/Themes/MonokaiProRistretto/preview.png)
 
 ---
 
