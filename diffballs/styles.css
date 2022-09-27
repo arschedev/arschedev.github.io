@@ -1,0 +1,11 @@
+.ball {
+    border-radius: 50%;
+    background: red;
+    position: absolute;
+}
+
+#container {
+    width: 1000px;
+    height: 700px;
+    border: 1px solid #000000;
+}
