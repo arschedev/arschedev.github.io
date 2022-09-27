@@ -2,12 +2,52 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
+    <meta name="author" content="arschedev wert1x">
+    <meta name="description" content="big sweaty balls. a javascript game">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="styles.css">
     <script defer type="text/javascript" src="main.js"></script>
-    <title>Balls</title>
+    <script defer type="text/javascript" src="container.js"></script>
+    <title>Diffballs</title>
 </head>
 <body>
+<!--Header-->
+<div id="header">
+    <!--Parameters-->
+    <div>
+        <label>
+            <select id="fps" onchange="onFpsSelect(this)">
+                <option value="fps" disabled>frames per second</option>
+                <option value="24">24 fps</option>
+                <option value="30">30 fps</option>
+                <option value="35" selected>35 fps</option>
+                <option value="40">40 fps</option>
+                <option value="60">60 fps</option>
+            </select>
+        </label>
+        <label>
+            <select id="size" onchange="onSizeSelect(this)">
+                <option value="size" disabled>size</option>
+                <option value="10">tiny</option>
+                <option value="20">small</option>
+                <option value="40" selected>medium</option>
+            </select>
+        </label>
+    </div>
+    <!--Title-->
+    <div>
+        <a href="https://github.com/arschedev/arschedev.github.io/tree/main/diffballs"><b>Diffballs</b></a>
+    </div>
+    <!--Counters-->
+    <div>
+        <a>||</a>
+        <a>Balls: <span id="balls">0</span></a>
+        <a>|</a>
+        <a>Caught: <span id="caught">0</span></a>
+        <a>||</a>
+    </div>
+</div>
+<!--Game-->
 <div id="container"></div>
 </body>
 </html>

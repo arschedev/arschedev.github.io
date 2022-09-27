@@ -1,11 +1,39 @@
-.ball {
-    border-radius: 50%;
-    background: red;
-    position: absolute;
+/* */
+/* font */
+/* */
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+body {
+    font-family: 'JetBrains Mono', monospace;
+}
+
+/* */
+/* everything else */
+/* */
+
+body {
+    margin: 0;
+    background: rgb(255, 100, 168);
+    background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
+}
+
+#header {
+    margin-top: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 #container {
-    width: 1000px;
-    height: 700px;
-    border: 1px solid #000000;
+    border: 1px dashed #000;
+}
+
+.ball {
+    display: none;
+    position: absolute;
+    border-radius: 50%;
+    background: linear-gradient(90deg, #0700b8 0%, #00ff88 100%);
 }
