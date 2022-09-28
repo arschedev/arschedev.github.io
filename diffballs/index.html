@@ -18,6 +18,7 @@
         <label>
             <select id="fps" onchange="onFpsSelect(this)">
                 <option value="fps" disabled>frames per second</option>
+                <option value="1">1 fps</option>
                 <option value="24">24 fps</option>
                 <option value="30">30 fps</option>
                 <option value="35" selected>35 fps</option>
@@ -33,6 +34,9 @@
                 <option value="40" selected>medium</option>
             </select>
         </label>
+        <label>
+            <input id="border" type="checkbox" onchange="onBorderCheck(this)">
+        </label>
     </div>
     <!--Title-->
     <div>
@@ -41,9 +45,9 @@
     <!--Counters-->
     <div>
         <a>||</a>
-        <a>Balls: <span id="balls">0</span></a>
+        <a>Balls: <span id="balls">00</span></a>
         <a>|</a>
-        <a>Caught: <span id="caught">0</span></a>
+        <a>Caught: <span id="caught">00</span></a>
         <a>||</a>
     </div>
 </div>

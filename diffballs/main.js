@@ -9,20 +9,27 @@
 
 const DEV = true;
 
-//! COUNTERS
+/**
+ * ! COUNTERS
+ */
+
 let balls_counter = document.getElementById('balls');
 let caught_counter = document.getElementById('caught');
 
-//! PARAMETERS
-// parameters
+/**
+ * ! PARAMETERS
+ */
+
 let params = {
-  fps: 35,
-  size: 40
-};
+      fps: 35,
+      size: 40,
+      border: false
+    };
 
 // to default
 document.getElementById('fps').value = params.fps;
 document.getElementById('size').value = params.size;
+document.getElementById('border').checked = params.border;
 
 // fps
 function onFpsSelect(e) {
@@ -35,8 +42,19 @@ function onSizeSelect(e) {
   params.size = +e.options[e.selectedIndex].value;
 }
 
-//! GAME
-// container
+// border
+function onBorderCheck(e) {
+  if (!e.checked) {
+    document.getElementById('container').style.border = '0';
+  } else {
+    document.getElementById('container').style.border = '2px dashed #000';
+  }
+}
+
+/**
+ * ! GAME
+ */
+
 let container = document.getElementById('container');
 
 // click event
@@ -66,7 +84,8 @@ function click(event) {
   balls.push(ball);
 
   // increment Balls counter
-  balls_counter.textContent = String(+balls_counter.textContent + 1);
+  balls_counter.textContent = String(+balls_counter.textContent + 1).length < 2 ? '0' + String(
+      +balls_counter.textContent + 1) : String(+balls_counter.textContent + 1);
 
   // start Update
   if (!interval)
@@ -99,10 +118,12 @@ function wasCaught(event) {
       balls.splice(i, 1);
 
       // increment Caught counter
-      caught_counter.textContent = String(+caught_counter.textContent + 1);
+      caught_counter.textContent = String(+caught_counter.textContent + 1).length < 2 ? '0' + String(
+          +caught_counter.textContent + 1) : String(+caught_counter.textContent + 1);
 
       // decrement Balls counter
-      balls_counter.textContent = String(+balls_counter.textContent - 1);
+      balls_counter.textContent = String(+balls_counter.textContent - 1).length < 2 ? '0' + String(
+          +balls_counter.textContent - 1) : String(+balls_counter.textContent - 1);
 
       return true;
     }
@@ -128,10 +149,10 @@ function Update() {
 
     // bounce off container walls
     /* collision check && change position */
-    if (balls[i].x < 0 || balls[i].x > (container.offsetWidth - balls[i].w * 2)) /* FIXME */
+    if (balls[i].x < 0 || balls[i].x > window.innerWidth - balls[i].w - 16) /* FIXME */
       balls[i].xS *= -1;
     /* collision check && change position */
-    if (balls[i].y < 0 || balls[i].y > (container.offsetHeight - balls[i].h / 2)) /* FIXME */
+    if (balls[i].y < 0 || balls[i].y > window.innerHeight - balls[i].h - 16) /* FIXME */
       balls[i].yS *= -1;
 
     // apply position

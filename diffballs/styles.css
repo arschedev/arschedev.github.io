@@ -23,12 +23,12 @@ body {
     margin-left: 8px;
     margin-right: 8px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
 #container {
-    border: 1px dashed #000;
+    /* border: 2px dashed #000; */
 }
 
 .ball {
