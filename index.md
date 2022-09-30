@@ -17,7 +17,7 @@
   Simple javascript game by me and my friends: [wert1x](https://github.com/wert1x) & [MaksymMNM](https://github.com/MaksymMNM)
   > [Source](https://github.com/arschedev/arschedev.github.io/tree/main/diffballs)
   
-  <img alt="Diffballs" src="https://github.com/arschedev/arschedev.github.io/blob/main/diffballs/diffballs.png" width="640">
+  <img alt="Diffballs" src="https://raw.githubusercontent.com/arschedev/arschedev.github.io/main/diffballs/diffballs.png" width="640">
 - ## GoogleTranslateAnywhere
   文 Google Translate add-on for Mozilla Firefox
   > [Source](https://github.com/arschedev/GoogleTranslateAnywhere), [Releases](https://github.com/arschedev/GoogleTranslateAnywhere/releases)
