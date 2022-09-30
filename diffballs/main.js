@@ -5,6 +5,7 @@
  * |   MaksymMNM                |
  * https://github.com/wert1x
  * https://github.com/arschedev
+ * https://github.com/MaksymMNM
  */
 
 const DEV = true;
@@ -21,10 +22,10 @@ let caught_counter = document.getElementById('caught');
  */
 
 let params = {
-      fps: 35,
-      size: 40,
-      border: false
-    };
+  fps: 35,
+  size: 40,
+  border: false
+};
 
 // to default
 document.getElementById('fps').value = params.fps;
@@ -149,10 +150,10 @@ function Update() {
 
     // bounce off container walls
     /* collision check && change position */
-    if (balls[i].x < 0 || balls[i].x > window.innerWidth - balls[i].w - 16) /* FIXME */
+    if (balls[i].x < 0 || balls[i].x > window.innerWidth - balls[i].w - 8 * 2) /* FIXME */
       balls[i].xS *= -1;
     /* collision check && change position */
-    if (balls[i].y < 0 || balls[i].y > window.innerHeight - balls[i].h - 16) /* FIXME */
+    if (balls[i].y < 0 || balls[i].y > window.innerHeight - balls[i].h - 8 * 2) /* FIXME */
       balls[i].yS *= -1;
 
     // apply position
@@ -182,17 +183,20 @@ function Update() {
 
 /**
  * ! TIMER
+ * TODO
  */
 
 document.addEventListener('DOMContentLoaded', function() {
   // конечная дата, например 1 июля 2021
-  const deadline = new Date(2022, 09, 05);
-   // id таймера
+  const deadline = new Date(2022, 9, 5);
+  // id таймера
   let timerId = null;
+
   // склонение числительных
   function declensionNum(num, words) {
     return words[(num % 100 > 4 && num % 100 < 20) ? 2 : [2, 0, 1, 1, 1, 2][(num % 10 < 5) ? num % 10 : 5]];
   }
+
   // вычисляем разницу дат и устанавливаем оставшееся времени в качестве содержимого элементов
   function countdownTimer() {
     const diff = deadline - new Date();
@@ -212,6 +216,7 @@ document.addEventListener('DOMContentLoaded', function() {
     $minutes.dataset.title = declensionNum(minutes, ['минута', 'минуты', 'минут']);
     $seconds.dataset.title = declensionNum(seconds, ['секунда', 'секунды', 'секунд']);
   }
+
   // получаем элементы, содержащие компоненты даты
   const $days = document.querySelector('.timer__days');
   const $hours = document.querySelector('.timer__hours');
