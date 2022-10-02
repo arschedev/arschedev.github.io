@@ -8,7 +8,7 @@
  * https://github.com/MaksymMNM
  */
 
-const DEV = true;
+const DEV = false;
 
 /**
  * ! COUNTERS
