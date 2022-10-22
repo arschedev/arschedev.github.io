@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="styles.css">
 
 
-## &nbsp;>> arschedev Website
+## &nbsp;>> arschedev's Website
 &nbsp;&nbsp; Obviously a list of my projects  
 &nbsp;&nbsp; See [repositories](https://github.com/arschedev?tab=repositories)
 
