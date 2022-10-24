@@ -11,6 +11,15 @@
 const DEV = false;
 
 /**
+ * ! UTILS
+ */
+function $getRandomInt(min, max) {
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+/**
  * ! COUNTERS
  */
 
@@ -23,13 +32,13 @@ let caught_counter = document.getElementById('caught');
 
 let params = {
   fps: 35,
-  size: 40,
+  size: () => 40 /* medium */,
   border: false
 };
 
 // to default
 document.getElementById('fps').value = params.fps;
-document.getElementById('size').value = params.size;
+document.getElementById('size').value = params.size();
 document.getElementById('border').checked = params.border;
 
 // fps
@@ -40,7 +49,15 @@ function onFpsSelect(e) {
 
 // size
 function onSizeSelect(e) {
-  params.size = +e.options[e.selectedIndex].value;
+  // random
+  if (e.options[e.selectedIndex].value === 'random') {
+    params.size = () =>
+      // from "tiny" to "medium"
+      $getRandomInt(10, 40);
+  } else {
+    // static
+    params.size = () => +e.options[e.selectedIndex].value;
+  }
 }
 
 // border
@@ -100,8 +117,8 @@ function createBall(event) {
     y: event.clientY,
     xS: Math.floor(Math.random() * 20) - 10,
     yS: Math.floor(Math.random() * 20) - 10,
-    w: Math.floor(Math.random() * 20) + params.size,
-    h: Math.floor(Math.random() * 20) + params.size,
+    w: Math.floor(Math.random() * 20) + params.size(),
+    h: Math.floor(Math.random() * 20) + params.size(),
     element: document.createElement('div')
   };
 }
