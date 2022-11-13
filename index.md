@@ -8,21 +8,20 @@
 
 ---
 
-# &nbsp;– Software
-- ## Soon
-  Description
-
-# &nbsp;– Misc
+# &nbsp;– Web
 - ## Diffballs
   Simple javascript game by me and my friends: [wert1x](https://github.com/wert1x) & [MaksymMNM](https://github.com/MaksymMNM)
   > [Play](https://arschedev.github.io/diffballs/), [Source](https://github.com/arschedev/arschedev.github.io/tree/main/diffballs)
   
   <img alt="Diffballs" src="https://raw.githubusercontent.com/arschedev/arschedev.github.io/main/diffballs/diffballs.png" width="640">
+
+# &nbsp;– Miscellaneous
 - ## GoogleTranslateAnywhere
   文 Google Translate add-on for Mozilla Firefox
   > [Source](https://github.com/arschedev/GoogleTranslateAnywhere), [Releases](https://github.com/arschedev/GoogleTranslateAnywhere/releases)
 
   <img alt="GoogleTranslateAnywhere" src="https://raw.githubusercontent.com/arschedev/GoogleTranslateAnywhere/main/icons/extension.png" width="380">
+
 - ## BetterDiscord:
   Themes & Plugins for BetterDiscord  
   [Repository](https://github.com/arschedev/BetterDiscord)
@@ -34,4 +33,4 @@
 ---
 
 # &nbsp;– About
-&nbsp;&nbsp; 🇺🇦
+&nbsp;&nbsp; Ukrainian
