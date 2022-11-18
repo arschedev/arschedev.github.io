@@ -11,7 +11,7 @@
     <script defer type="text/javascript" src="container.js"></script>
     <title>Diffballs</title>
 </head>
-<body>
+<body onload="init()">
 <!--Header-->
 <div id="header">
     <!--Parameters-->
@@ -55,13 +55,8 @@
         </div>
     </div>
     <!--Timer-->
-    <div class="timer">
-        <div class="timer__items">
-            <div class="timer__item timer__days">00</div>
-            <div class="timer__item timer__hours">00</div>
-            <div class="timer__item timer__minutes">00</div>
-            <div class="timer__item timer__seconds">00</div>
-        </div>
+    <div id="timer">
+        <time>00:00:00</time>
     </div>
 </div>
 <!--Game-->

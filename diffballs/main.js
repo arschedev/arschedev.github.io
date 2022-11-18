@@ -200,47 +200,61 @@ function Update() {
 
 /**
  * ! TIMER
- * TODO
  */
 
-document.addEventListener('DOMContentLoaded', function() {
-  // конечная дата, например 1 июля 2021
-  const deadline = new Date(2022, 9, 5);
-  // id таймера
-  let timerId = null;
+let min = 0;
+let hour = 0;
+let timer = document.getElementById("timer");
 
-  // склонение числительных
-  function declensionNum(num, words) {
-    return words[(num % 100 > 4 && num % 100 < 20) ? 2 : [2, 0, 1, 1, 1, 2][(num % 10 < 5) ? num % 10 : 5]];
-  }
+function init() {
+    sec = 0;
+    setInterval(tick, 1000);
+}
 
-  // вычисляем разницу дат и устанавливаем оставшееся времени в качестве содержимого элементов
-  function countdownTimer() {
-    const diff = deadline - new Date();
-    if (diff <= 0) {
-      clearInterval(timerId);
+function tick() {
+    sec++;
+    if (sec >= 60) {
+        min++;
+        sec = sec - 60;
     }
-    const days = diff > 0 ? Math.floor(diff / 1000 / 60 / 60 / 24) : 0;
-    const hours = diff > 0 ? Math.floor(diff / 1000 / 60 / 60) % 24 : 0;
-    const minutes = diff > 0 ? Math.floor(diff / 1000 / 60) % 60 : 0;
-    const seconds = diff > 0 ? Math.floor(diff / 1000) % 60 : 0;
-    $days.textContent = days < 10 ? '0' + days : days;
-    $hours.textContent = hours < 10 ? '0' + hours : hours;
-    $minutes.textContent = minutes < 10 ? '0' + minutes : minutes;
-    $seconds.textContent = seconds < 10 ? '0' + seconds : seconds;
-    $days.dataset.title = declensionNum(days, ['день', 'дня', 'дней']);
-    $hours.dataset.title = declensionNum(hours, ['час', 'часа', 'часов']);
-    $minutes.dataset.title = declensionNum(minutes, ['минута', 'минуты', 'минут']);
-    $seconds.dataset.title = declensionNum(seconds, ['секунда', 'секунды', 'секунд']);
-  }
-
-  // получаем элементы, содержащие компоненты даты
-  const $days = document.querySelector('.timer__days');
-  const $hours = document.querySelector('.timer__hours');
-  const $minutes = document.querySelector('.timer__minutes');
-  const $seconds = document.querySelector('.timer__seconds');
-  // вызываем функцию countdownTimer
-  countdownTimer();
-  // вызываем функцию countdownTimer каждую секунду
-  timerId = setInterval(countdownTimer, 1000);
-});
+    if (min >= 60) {
+        hour++;
+        min = min - 60;
+    }
+    if (sec <= 9) {
+        if (min <= 9) {
+            if (hour <= 9) {
+                timer.innerHTML = "0" + hour + ":0" + min + ":0" + sec;
+            } 
+            else {
+                timer.innerHTML = hour + ":0" + min + ":0" + sec;
+            }
+        } 
+        else {
+            if (hour <= 9) {
+                timer.innerHTML = "0" + hour + ":" + min + ":0" + sec;
+            } 
+            else {
+                timer.innerHTML = hour + ":" + min + ":0" + sec;
+            }
+        }
+    } 
+    else {
+        if (min < 10) {
+            if (hour <= 9) {
+                timer.innerHTML = "0" + hour + ":0" + min + ":" + sec;
+            } 
+            else {
+                timer.innerHTML = hour + ":0" + min + ":" + sec;
+            }
+        } 
+        else {
+            if (hour <= 9) {
+                timer.innerHTML = "0" + hour + ":" + min + ":" + sec;
+            } 
+            else {
+                timer.innerHTML = hour + ":" + min + ":" + sec;
+            }
+        }
+    }
+}
