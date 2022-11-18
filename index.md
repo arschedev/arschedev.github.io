@@ -1,5 +1,5 @@
 <link rel="shortcut icon" type="image/png" href="https://avatars.githubusercontent.com/u/98528463">
-<link rel="stylesheet" href="res/styles.css">
+<link rel="stylesheet" href="resources/styles.css">
 
 
 ## &nbsp;>> arschedev's Website
