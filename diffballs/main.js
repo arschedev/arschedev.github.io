@@ -1,8 +1,8 @@
 /**
  * Copyright (c) 2022
  * |   arschedev                |
- * |   A. Proydenko (wert1x),   |
  * |   MaksymMNM                |
+ * |   A. Proydenko (wert1x),   |
  * https://github.com/wert1x
  * https://github.com/arschedev
  * https://github.com/MaksymMNM
@@ -200,13 +200,14 @@ function Update() {
 
 /**
  * ! TIMER
+ * by MaksymMNM
  */
 
 let min = 0;
 let hour = 0;
 let timer = document.getElementById("timer");
 
-function init() {
+function init_timer() {
     sec = 0;
     setInterval(tick, 1000);
 }
