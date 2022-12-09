@@ -16,7 +16,7 @@
   <img alt="Diffballs" src="https://raw.githubusercontent.com/arschedev/arschedev.github.io/main/diffballs/diffballs.png" width="640">
 
 # &nbsp;– Miscellaneous
-- ## GoogleTranslateAnywhere
+- ## [GoogleTranslateAnywhere](/GoogleTranslateAnywhere/)
   文 Google Translate add-on for Mozilla Firefox
   > [Source](https://github.com/arschedev/GoogleTranslateAnywhere), [Releases](https://github.com/arschedev/GoogleTranslateAnywhere/releases)
 
@@ -33,4 +33,4 @@
 ---
 
 # &nbsp;– About
-&nbsp;&nbsp; Ukrainian
+&nbsp;&nbsp; Made in Ukraine
