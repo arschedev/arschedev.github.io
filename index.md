@@ -28,7 +28,7 @@
   <img alt="GoogleTranslateAnywhere" src="https://raw.githubusercontent.com/arschedev/GoogleTranslateAnywhere/main/icons/extension.png" width="380">
 
 - ## BetterDiscord:
-  [Themes & Plugins](/BetterDiscord/) for BetterDiscord  
+  Themes & Plugins for BetterDiscord, [list](/BetterDiscord/)  
   [Repository](https://github.com/arschedev/BetterDiscord)
     - ## [Monokai Pro Ristretto](/BetterDiscord/Themes/MonokaiProRistretto/)
       > [Source](https://github.com/arschedev/BetterDiscord/tree/main/Themes/MonokaiProRistretto)
