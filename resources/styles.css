@@ -20,9 +20,13 @@ p,
 
 /* margins */
 li > p {
-    margin-bottom: 0;
+    margin-bottom: 10px;
 }
 
 img {
+    margin-bottom: 20px;
+}
+
+a[href="https://github.com/arschedev/BetterDiscord"] {
     margin-bottom: 20px;
 }
