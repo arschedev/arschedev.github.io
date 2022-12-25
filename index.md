@@ -4,16 +4,23 @@
 
 ## &nbsp;>> arschedev's Website
 &nbsp;&nbsp; Obviously a list of my projects  
-&nbsp;&nbsp; See [repositories](https://github.com/arschedev?tab=repositories)
+&nbsp;&nbsp; See [repositories](https://github.com/arschedev?tab=repositories), [unlisted projects](https://arschedev.github.io/arschedev/Projects)
 
 ---
 
+# &nbsp;- Programs
+- ## [Caesarium](/arschedev/Projects/Ruby/Caesarium/)
+  Caesar cipher endcoder/decoder
+
+  > [Source](https://github.com/arschedev/arschedev/tree/main/Projects/Ruby/Caesarium)
+
 # &nbsp;– Web
-- ## Diffballs
+- ## [Diffballs](/diffballs/)
   Simple javascript game by me and my friends: [wert1x](https://github.com/wert1x) & [MaksymMNM](https://github.com/MaksymMNM)
-  > [Play](https://arschedev.github.io/diffballs/), [Source](https://github.com/arschedev/arschedev.github.io/tree/main/diffballs)
   
-  <img alt="Diffballs" src="https://raw.githubusercontent.com/arschedev/arschedev.github.io/main/diffballs/diffballs.png" width="640">
+  > [Play](/diffballs/), [Source](https://github.com/arschedev/arschedev.github.io/tree/main/diffballs)
+  
+<!--   <img alt="Diffballs" src="https://raw.githubusercontent.com/arschedev/arschedev.github.io/main/diffballs/diffballs.png" width="640"> -->
 
 # &nbsp;– Miscellaneous
 - ## [GoogleTranslateAnywhere](/GoogleTranslateAnywhere/)
@@ -23,10 +30,10 @@
   <img alt="GoogleTranslateAnywhere" src="https://raw.githubusercontent.com/arschedev/GoogleTranslateAnywhere/main/icons/extension.png" width="380">
 
 - ## BetterDiscord:
-  Themes & Plugins for BetterDiscord  
+  [Themes & Plugins](/BetterDiscord/) for BetterDiscord  
   [Repository](https://github.com/arschedev/BetterDiscord)
-    - ## Monokai Pro Ristretto
-      > [Source](https://github.com/arschedev/BetterDiscord/tree/main/Themes/MonokaiProRistretto), [README.md](https://github.com/arschedev/BetterDiscord/blob/main/Themes/MonokaiProRistretto/README.md)
+    - ## [Monokai Pro Ristretto](/BetterDiscord/Themes/MonokaiProRistretto/)
+      > [Source](https://github.com/arschedev/BetterDiscord/tree/main/Themes/MonokaiProRistretto)
 
       ![Monokai Pro Ristretto](https://raw.githubusercontent.com/arschedev/BetterDiscord/main/Themes/MonokaiProRistretto/preview.png)
 
