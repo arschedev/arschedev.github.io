@@ -1,4 +1,4 @@
-<link rel="shortcut icon" type="image/png" href="https://avatars.githubusercontent.com/u/98528463">
+<link rel="shortcut icon" type="image/png" href="https://avatars.githubusercontent.com/u/98528463?v=4">
 <link rel="stylesheet" href="resources/styles.css">
 <!--  -->
 
