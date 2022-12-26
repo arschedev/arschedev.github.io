@@ -13,6 +13,8 @@
   Caesar cipher endcoder / decoder
   > [Source](https://github.com/arschedev/arschedev/tree/main/Projects/Ruby/Caesarium)
 
+  ![Caesarium](https://raw.githubusercontent.com/arschedev/arschedev/main/Projects/Ruby/Caesarium/caesarium.png)
+
 # &nbsp;– Web
 - ## [Diffballs](/diffballs/)
   Simple JavaScript game by me and friends: [wert1x](https://github.com/wert1x) & [MaksymMNM](https://github.com/MaksymMNM)
