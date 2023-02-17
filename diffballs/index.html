@@ -1,65 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="utf-8">
-    <meta name="author" content="arschedev wert1x MaksymMNM">
-    <meta name="description" content="big sweety balls. a javascript game">
-    <link rel="icon" type="image/png" href="favicon.png">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <script defer type="text/javascript" src="main.js"></script>
-    <script defer type="text/javascript" src="container.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="3; url=https://diffballs.github.io" />
     <title>Diffballs</title>
 </head>
-<body onload="init_timer()">
-<!--Header-->
-<div id="header">
-    <!--Parameters-->
-    <div>
-        <label>
-            <select id="fps" onchange="onFpsSelect(this)">
-                <option value="fps" disabled>frames per second</option>
-                <option value="1">1 fps</option>
-                <option value="24">24 fps</option>
-                <option value="30">30 fps</option>
-                <option value="35" selected>35 fps</option>
-                <option value="40">40 fps</option>
-                <option value="60">60 fps</option>
-            </select>
-        </label>
-        <label>
-            <select id="size" onchange="onSizeSelect(this)">
-                <option value="size" disabled>size</option>
-                <option value="10">tiny</option>
-                <option value="20">small</option>
-                <option value="40" selected>medium</option>
-                <option value="random">random</option>
-            </select>
-        </label>
-        <label>
-            <input id="border" type="checkbox" onchange="onBorderCheck(this)">
-        </label>
-    </div>
-    <!--Title-->
-    <div>
-        <a id="title" href="https://github.com/arschedev/arschedev.github.io/tree/main/diffballs" target="_blank"><b>&nbsp;Diffballs&nbsp;</b></a>
-    </div>
-    <!--Counters-->
-    <div>
-        <div id="counters">
-            <a class="separator">[</a>
-            <a>Balls [<span id="balls">00</span>]</a>
-            <a class="separator">/</a>
-            <a>Caught [<span id="caught">00</span>]</a>
-            <a class="separator">]</a>
-        </div>
-    </div>
-    <!--Timer-->
-    <div id="timer">
-        <time>00:00:00</time>
-    </div>
-</div>
-<!--Game-->
-<div id="container"></div>
+
+<body bgcolor="#222222">
+    <p style="color: #DCDCDC" align="center">
+        Moved to <a style="color: #DCDCDC;" href="https://diffballs.github.io">diffballs.github.io</a><br>
+        Redirecting... <span id="counter">2</span>
+    </p>
+    <script>
+        let interval = setInterval(() => {
+            let counter = document.getElementById('counter');
+            let counterN = +counter.textContent;
+            counter.textContent = counterN = counterN - 1;
+            if (counterN === 0) clearInterval(interval);
+        }, 1000);
+    </script>
 </body>
+
 </html>

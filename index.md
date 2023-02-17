@@ -3,7 +3,7 @@
 <!--  -->
 
 ## &nbsp;>> arschedev's Website
-&nbsp;&nbsp; Obviously a list of my projects  
+&nbsp;&nbsp; Obviously a list of my projects<br>
 &nbsp;&nbsp; See [repositories](https://github.com/arschedev?tab=repositories), [unlisted projects](https://arschedev.github.io/arschedev/Projects)
 
 ---
@@ -16,11 +16,11 @@
   ![Caesarium](https://raw.githubusercontent.com/arschedev/arschedev/main/Projects/Ruby/Caesarium/caesarium.png)
 
 # &nbsp;– Web
-- ## [Diffballs](/diffballs/)
-  Simple JavaScript game by me and friends: [wert1x](https://github.com/wert1x) & [MaksymMNM](https://github.com/MaksymMNM)
-  > [Play](/diffballs/), [Source](https://github.com/arschedev/arschedev.github.io/tree/main/diffballs)
-  
-<!--   <img alt="Diffballs" src="https://raw.githubusercontent.com/arschedev/arschedev.github.io/main/diffballs/diffballs.png" width="640"> -->
+- ## [Diffballs](https://diffballs.github.io)
+  A simple javascript game by me and friends [wert1x](https://github.com/wert1x) & [MaksymMNM](https://github.com/MaksymMNM)
+  > [Play](https://diffballs.github.io), [Source](https://github.com/diffballs/diffballs.github.io)
+
+<!--   <img alt="Diffballs" src="https://raw.githubusercontent.com/diffballs/diffballs.github.io/main/diffballs.png" width="640"> -->
 
 # &nbsp;– Miscellaneous
 - ## [GoogleTranslateAnywhere](/GoogleTranslateAnywhere/)
