@@ -26,3 +26,9 @@ li > p {
 img {
     margin-bottom: 12px;
 }
+
+/* footer */
+footer > p::before {
+    content: "© 2023 arschedev";
+    white-space: pre;
+}
