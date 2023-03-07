@@ -1,21 +1,45 @@
+:root {
+    --background: #222222;
+    --section: #191919;
+    --text: #DCDCDC;
+}
+
 /* background */
 body {
-    background: #222222;
+    background: var(--background);
+}
+
+header {
+    padding-top: 40px;
+    background: transparent;
+    backdrop-filter: brightness(75%) blur(10px);
+}
+
+#banner {
+    display: none;
 }
 
 section {
-    background-color: #191919;
+    background-color: var(--section);
     border: 0;
     box-shadow: initial;
 }
 
 /* text */
+* {
+    font-family: 'Fira Code', monospace !important;    
+}
+
+header h1 {
+  text-shadow: 0px 0px;
+}
+
 h1,
 h2,
 p,
 .tag-h1 > a,
 .tag-h2 > a {
-    color: #DCDCDC !important;
+    color: var(--text) !important;
 }
 
 /* margins */
@@ -25,4 +49,14 @@ li > p {
 
 img {
     margin-bottom: 12px;
+}
+
+/* footer */
+footer > p > small {
+  display: none;
+}
+
+footer > p::before {
+    content: "© 2023 arschedev";
+    white-space: pre;
 }
