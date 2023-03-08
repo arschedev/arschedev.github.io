@@ -22,7 +22,31 @@ body {
 header {
   padding-top: 40px;
   background: transparent;
-  backdrop-filter: brightness(75%) blur(10px);
+  backdrop-filter: brightness(80%) blur(8px);
+}
+
+@media screen and (max-width: 720px) {
+  header {
+    min-height: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  section {
+    margin-top: 130px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  header {
+    position: fixed;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  section {
+    margin-top: 88px;
+  }
 }
 
 #banner {
@@ -72,6 +96,6 @@ footer > p > small {
 }
 
 footer > p::before {
-  content: "© 2023 arschedev";
+  content: "(c) 2023 arschedev";
   white-space: pre;
 }
