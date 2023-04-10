@@ -2,9 +2,9 @@
 <link rel="stylesheet" href="resources/styles.css">
 <!--  -->
 
-## &nbsp;>> arschedev's Website
-&nbsp;&nbsp; Obviously a list of my projects<br>
-&nbsp;&nbsp; See [repositories](https://github.com/arschedev?tab=repositories), [unlisted projects](https://arschedev.github.io/arschedev/Projects)
+## &nbsp;Hi, arschedev here
+&nbsp;&nbsp;Obviously a list of my projects<br>
+&nbsp;&nbsp;See [repositories](https://github.com/arschedev?tab=repositories), [unlisted projects](https://arschedev.github.io/arschedev/Projects)
 
 ---
 
@@ -21,6 +21,11 @@
   > [Play](https://diffballs.github.io), [Source](https://github.com/diffballs/diffballs.github.io)
 
 <!--   <img alt="Diffballs" src="https://raw.githubusercontent.com/diffballs/diffballs.github.io/main/diffballs.png" width="640"> -->
+
+# &nbsp;– Tools
+- ## [pathedit](/pathedit/)
+  PATH management tool for Linux
+  > [Source](https://github.com/arschedev/pathedit), [Releases](https://github.com/arschedev/pathedit/releases)
 
 # &nbsp;– Miscellaneous
 - ## [GoogleTranslateAnywhere](/GoogleTranslateAnywhere/)
