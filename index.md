@@ -16,6 +16,12 @@
   ![Caesarium](https://raw.githubusercontent.com/arschedev/arschedev/main/Projects/Ruby/Caesarium/caesarium.png)
 
 # &nbsp;– Web
+- ## [MateNotes](/MateNotes/)
+  Minimal notes app in React
+  > [Source](https://github.com/arschedev/MateNotes)
+
+  ![MateNotes](https://raw.githubusercontent.com/arschedev/MateNotes/main/preview.png)
+
 - ## [Diffballs](https://diffballs.github.io)
   A simple javascript game by me and friends [wert1x](https://github.com/wert1x) & [MaksymMNM](https://github.com/MaksymMNM)
   > [Play](https://diffballs.github.io), [Source](https://github.com/diffballs/diffballs.github.io)
