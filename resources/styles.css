@@ -23,6 +23,7 @@ header {
   padding-top: 40px;
   background: transparent;
   backdrop-filter: brightness(80%) blur(8px);
+  -webkit-backdrop-filter: brightness(80%) blur(8px);
 }
 
 @media screen and (max-width: 720px) {
