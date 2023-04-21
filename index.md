@@ -14,6 +14,12 @@
   > [Source](https://github.com/arschedev/MateNotes)
 
   ![MateNotes](https://raw.githubusercontent.com/arschedev/MateNotes/main/preview.png)
+  
+- ## [Demo](/DemoProject/)
+  Demo website project in HTML, Bootstrap & Sass
+  > [Source](https://github.com/arschedev/DemoProject)
+
+  ![DemoProject](https://raw.githubusercontent.com/arschedev/DemoProject/main/preview.png)
 
 - ## [Diffballs](https://diffballs.github.io)
   A simple javascript game by me and friends [wert1x](https://github.com/wert1x) & [MaksymMNM](https://github.com/MaksymMNM)
