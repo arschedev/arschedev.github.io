@@ -65,6 +65,10 @@ section {
   font-family: 'Fira Code', monospace !important;
 }
 
+strong {
+  color: var(--link) !important;
+}
+
 header > h1 {
   color: var(--blockquote) !important;
   text-shadow: 0px 0px;
