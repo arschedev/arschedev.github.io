@@ -15,7 +15,7 @@
 
   ![MateNotes](https://raw.githubusercontent.com/arschedev/MateNotes/main/preview.png)
   
-- ## [Demo](/DemoProject/)
+- ## [DemoProject](/DemoProject/)
   Demo website project in HTML, Bootstrap & Sass
   > [Source](https://github.com/arschedev/DemoProject)
 
