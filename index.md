@@ -2,18 +2,11 @@
 <link rel="stylesheet" href="resources/styles.css">
 <!--  -->
 
-## &nbsp;Hi, arschedev here
+## 👋 Hi, arschedev here
 &nbsp;&nbsp;Obviously a list of my projects<br>
-&nbsp;&nbsp;See [repositories](https://github.com/arschedev?tab=repositories), [unlisted projects](https://arschedev.github.io/arschedev/Projects)
+&nbsp;&nbsp;See [repositories](https://github.com/arschedev?tab=repositories), [**unlisted projects**](https://arschedev.github.io/arschedev/Projects)
 
 ---
-
-# &nbsp;– Programs
-- ## [Caesarium](/arschedev/Projects/Ruby/Caesarium/)
-  Caesar cipher endcoder / decoder
-  > [Source](https://github.com/arschedev/arschedev/tree/main/Projects/Ruby/Caesarium)
-
-  ![Caesarium](https://raw.githubusercontent.com/arschedev/arschedev/main/Projects/Ruby/Caesarium/caesarium.png)
 
 # &nbsp;– Web
 - ## [MateNotes](/MateNotes/)
@@ -28,6 +21,13 @@
 
 <!--   <img alt="Diffballs" src="https://raw.githubusercontent.com/diffballs/diffballs.github.io/main/diffballs.png" width="640"> -->
 
+# &nbsp;– Apps
+- ## [Caesarium](/arschedev/Projects/Ruby/Caesarium/)
+  Caesar cipher endcoder / decoder
+  > [Source](https://github.com/arschedev/arschedev/tree/main/Projects/Ruby/Caesarium)
+
+  ![Caesarium](https://raw.githubusercontent.com/arschedev/arschedev/main/Projects/Ruby/Caesarium/caesarium.png)
+
 # &nbsp;– Tools
 - ## [pathedit](/pathedit/)
   PATH management tool for Linux
@@ -38,7 +38,7 @@
   文 Google Translate add-on for Mozilla Firefox
   > [Source](https://github.com/arschedev/GoogleTranslateAnywhere), [Releases](https://github.com/arschedev/GoogleTranslateAnywhere/releases)
 
-  <img alt="GoogleTranslateAnywhere" src="https://raw.githubusercontent.com/arschedev/GoogleTranslateAnywhere/main/icons/extension.png" width="380">
+  <img alt="GoogleTranslateAnywhere" src="https://raw.githubusercontent.com/arschedev/GoogleTranslateAnywhere/main/icons/extension.png" width="480">
 
 - ## BetterDiscord:
   [Themes & Plugins for BetterDiscord](/BetterDiscord/)
