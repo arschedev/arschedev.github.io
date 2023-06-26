@@ -27,17 +27,17 @@
 
 <!--   <img alt="Diffballs" src="https://raw.githubusercontent.com/diffballs/diffballs.github.io/main/diffballs.png" width="640"> -->
 
+# &nbsp;– Tools
+- ## [pathedit](/pathedit/)
+  PATH management tool for Linux
+  > [Source](https://github.com/arschedev/pathedit), [Releases](https://github.com/arschedev/pathedit/releases)
+
 # &nbsp;– Apps
 - ## [Caesarium](/arschedev/Projects/Ruby/Caesarium/)
   Caesar cipher endcoder / decoder
   > [Source](https://github.com/arschedev/arschedev/tree/main/Projects/Ruby/Caesarium)
 
   ![Caesarium](https://raw.githubusercontent.com/arschedev/arschedev/main/Projects/Ruby/Caesarium/caesarium.png)
-
-# &nbsp;– Tools
-- ## [pathedit](/pathedit/)
-  PATH management tool for Linux
-  > [Source](https://github.com/arschedev/pathedit), [Releases](https://github.com/arschedev/pathedit/releases)
 
 # &nbsp;– Miscellaneous
 - ## [GoogleTranslateAnywhere](/GoogleTranslateAnywhere/)
