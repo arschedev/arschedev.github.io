@@ -11,13 +11,13 @@
 # &nbsp;– Web
 - ## [MateNotes](/MateNotes/)
   Minimal notes app in React
-  > [Source](https://github.com/arschedev/MateNotes)
+  > [Go](/MateNotes/), [Source](https://github.com/arschedev/MateNotes)
 
   ![MateNotes](https://raw.githubusercontent.com/arschedev/MateNotes/main/preview.png)
   
 - ## [DemoProject](/DemoProject/)
   Demo website project in HTML, Bootstrap & Sass
-  > [Source](https://github.com/arschedev/DemoProject)
+  > [Go](/DemoProject/), [Source](https://github.com/arschedev/DemoProject)
 
   ![DemoProject](https://raw.githubusercontent.com/arschedev/DemoProject/main/preview.png)
 
@@ -34,13 +34,19 @@
 
 # &nbsp;– Tools
 - ## [pathedit](/pathedit/)
-  PATH management tool for Linux
+  PATH management tool for Linux & macOS
   > [Source](https://github.com/arschedev/pathedit), [Releases](https://github.com/arschedev/pathedit/releases)
 
 # &nbsp;– Apps
+- ## [rainfall](/rainfall/)
+  Matrix digital rain in terminal from scratch 
+  > [Installation](https://github.com/arschedev/rainfall#installation), [Source](https://github.com/arschedev/rainfall)
+
+  ![rainfall](https://raw.githubusercontent.com/arschedev/rainfall/main/rainfall.gif)
+
 - ## [Caesarium](/arschedev/Projects/Ruby/Caesarium/)
   Caesar cipher endcoder / decoder
-  > [Source](https://github.com/arschedev/arschedev/tree/main/Projects/Ruby/Caesarium)
+  > [Installation](https://github.com/arschedev/arschedev/tree/main/Projects/Ruby/Caesarium#installation), [Source](https://github.com/arschedev/arschedev/tree/main/Projects/Ruby/Caesarium)
 
   ![Caesarium](https://raw.githubusercontent.com/arschedev/arschedev/main/Projects/Ruby/Caesarium/caesarium.png)
 
