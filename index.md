@@ -21,6 +21,11 @@
 
   ![DemoProject](https://raw.githubusercontent.com/arschedev/DemoProject/main/preview.png)
 
+# &nbsp;– Games
+- ## [SwingTetris](/SwingTetris/)
+  The craziest implementation of Tetris by me & [luckydanya](https://github.com/wert1x/luckydanya)
+  > [Download](https://github.com/arschedev/SwingTetris/raw/main/out/artifacts/Tetris_jar/Tetris.jar), [Source](https://github.com/arschedev/SwingTetris)
+
 - ## [Diffballs](https://diffballs.github.io)
   A simple javascript game by me and friends [wert1x](https://github.com/wert1x) & [MaksymMNM](https://github.com/MaksymMNM)
   > [Play](https://diffballs.github.io), [Source](https://github.com/diffballs/diffballs.github.io)
