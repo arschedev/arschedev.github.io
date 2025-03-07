@@ -9,15 +9,21 @@
 ---
 
 # &nbsp;– Web
+- ## [Transmoder](https://github.com/TransmoderTeam)
+  Minecraft mods updater
+  > [Visit](https://transmoder.org/), [Organization](https://github.com/TransmoderTeam)
+
+  ![Transmoder](https://raw.githubusercontent.com/TransmoderTeam/.github/refs/heads/main/preview.png)
+  
 - ## [MateNotes](/MateNotes/)
   Minimal notes app in React
-  > [Go](/MateNotes/), [Source](https://github.com/arschedev/MateNotes)
+  > [Visit](/MateNotes/), [Source](https://github.com/arschedev/MateNotes)
 
   ![MateNotes](https://raw.githubusercontent.com/arschedev/MateNotes/main/preview.png)
   
 - ## [DemoProject](/DemoProject/)
   Demo website project in HTML, Bootstrap & Sass
-  > [Go](/DemoProject/), [Source](https://github.com/arschedev/DemoProject)
+  > [Visit](/DemoProject/), [Source](https://github.com/arschedev/DemoProject)
 
   ![DemoProject](https://raw.githubusercontent.com/arschedev/DemoProject/main/preview.png)
 
@@ -38,6 +44,10 @@
 - ## [pathedit](/pathedit/)
   PATH management tool for Linux & macOS
   > [Source](https://github.com/arschedev/pathedit), [Releases](https://github.com/arschedev/pathedit/releases)
+
+- ## [cf-fingerprint](/cf-fingerprint/)
+  CurseForge fingerprinting algorithm implementation
+  > [Source](https://github.com/arschedev/cf-fingerprint), [Releases](https://github.com/arschedev/cf-fingerprint/releases)
 
 # &nbsp;– Apps
 - ## [rainfall](/rainfall/)

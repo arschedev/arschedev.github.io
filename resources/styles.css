@@ -103,6 +103,6 @@ footer > p > small {
 }
 
 footer > p::before {
-  content: "(c) 2023 arschedev";
+  content: "(c) 2025 arschedev";
   white-space: pre;
 }
