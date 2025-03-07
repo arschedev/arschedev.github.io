@@ -9,7 +9,7 @@
 ---
 
 # &nbsp;– Web
-- ## [Transmoder](https://github.com/TransmoderTeam)
+- ## [Transmoder](https://transmoder.org/)
   Minecraft mods updater
   > [Visit](https://transmoder.org/), [Organization](https://github.com/TransmoderTeam)
 
