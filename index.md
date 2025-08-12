@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="resources/styles.css">
 <!--  -->
 
-## 👋 Hi, arschedev here
+## 🌍 Hi, arschedev here
 &nbsp;&nbsp;Sure enough, a list of my projects<br>
 &nbsp;&nbsp;See [repositories](https://github.com/arschedev?tab=repositories), [**unlisted projects**](https://arschedev.github.io/arschedev/Projects)
 
