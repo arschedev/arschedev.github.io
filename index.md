@@ -3,7 +3,7 @@
 <!--  -->
 
 ## 👋 Hi, arschedev here
-&nbsp;&nbsp;Obviously a list of my projects<br>
+&nbsp;&nbsp;Sure enough, a list of my projects<br>
 &nbsp;&nbsp;See [repositories](https://github.com/arschedev?tab=repositories), [**unlisted projects**](https://arschedev.github.io/arschedev/Projects)
 
 ---
@@ -36,7 +36,7 @@
 
 - ## [Diffballs](https://diffballs.github.io)
   A simple javascript game by me and friends [wert1x](https://github.com/wert1x) & [MaksymMNM](https://github.com/MaksymMNM)
-  > [Play](https://diffballs.github.io), [Source](https://github.com/diffballs/diffballs.github.io)
+  > [Try](https://diffballs.github.io), [Source](https://github.com/diffballs/diffballs.github.io)
 
 <!--   <img alt="Diffballs" src="https://raw.githubusercontent.com/diffballs/diffballs.github.io/main/diffballs.png" width="640"> -->
 
@@ -45,13 +45,18 @@
   PATH management tool for Linux & macOS
   > [Source](https://github.com/arschedev/pathedit), [Releases](https://github.com/arschedev/pathedit/releases)
 
+# &nbsp;– Libraries
 - ## [cf-fingerprint](/cf-fingerprint/)
   CurseForge fingerprinting algorithm implementation
   > [Source](https://github.com/arschedev/cf-fingerprint), [Releases](https://github.com/arschedev/cf-fingerprint/releases)
 
+- ## [yalo.js](/yalo.js/)
+  Minimal Node.js logging library
+  > [npm](https://www.npmjs.com/package/yalo.js), [Source](https://github.com/arschedev/yalo.js)
+
 # &nbsp;– Apps
 - ## [rainfall](/rainfall/)
-  Matrix digital rain in terminal from scratch 
+  Matrix digital rain in terminal from scratch
   > [Installation](https://github.com/arschedev/rainfall#installation), [Source](https://github.com/arschedev/rainfall)
 
   ![rainfall](https://raw.githubusercontent.com/arschedev/rainfall/main/rainfall.gif)
