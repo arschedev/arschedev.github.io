@@ -20,12 +20,6 @@
   > [Visit](/MateNotes/), [Source](https://github.com/arschedev/MateNotes)
 
   ![MateNotes](https://raw.githubusercontent.com/arschedev/MateNotes/main/preview.png)
-  
-- ## [DemoProject](/DemoProject/)
-  Demo website project in HTML, Bootstrap & Sass
-  > [Visit](/DemoProject/), [Source](https://github.com/arschedev/DemoProject)
-
-  ![DemoProject](https://raw.githubusercontent.com/arschedev/DemoProject/main/preview.png)
 
 # &nbsp;– Games
 - ## [SwingTetris](/SwingTetris/)
@@ -35,7 +29,7 @@
   ![SwingTetris](https://raw.githubusercontent.com/arschedev/SwingTetris/main/SwingTetris.png)
 
 - ## [Diffballs](https://diffballs.github.io)
-  A simple javascript game by me and friends [wert1x](https://github.com/wert1x) & [MaksymMNM](https://github.com/MaksymMNM)
+  A javascript game by me and my friends [wert1x](https://github.com/wert1x) & [MaksymMNM](https://github.com/MaksymMNM)
   > [Try](https://diffballs.github.io), [Source](https://github.com/diffballs/diffballs.github.io)
 
 <!--   <img alt="Diffballs" src="https://raw.githubusercontent.com/diffballs/diffballs.github.io/main/diffballs.png" width="640"> -->
@@ -68,12 +62,6 @@
   ![Caesarium](https://raw.githubusercontent.com/arschedev/arschedev/main/Projects/Ruby/Caesarium/caesarium.png)
 
 # &nbsp;– Miscellaneous
-- ## [GoogleTranslateAnywhere](/GoogleTranslateAnywhere/)
-  文 Google Translate add-on for Mozilla Firefox
-  > [Source](https://github.com/arschedev/GoogleTranslateAnywhere), [Releases](https://github.com/arschedev/GoogleTranslateAnywhere/releases)
-
-  <img alt="GoogleTranslateAnywhere" src="https://raw.githubusercontent.com/arschedev/GoogleTranslateAnywhere/main/icons/extension.png" width="480">
-
 - ## BetterDiscord:
   [Themes & Plugins for BetterDiscord](/BetterDiscord/)
   > [Repository](https://github.com/arschedev/BetterDiscord)
